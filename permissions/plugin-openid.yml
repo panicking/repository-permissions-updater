@@ -1,8 +1,8 @@
 ---
 name: "openid"
-github: "jenkinsci/openid-plugin"
+github: &gh "jenkinsci/openid-plugin"
 issues:
-  - jira: '15793'  # openid-plugin
+  - github: *gh
 paths:
   - "org/jenkins-ci/plugins/openid"
 developers:
